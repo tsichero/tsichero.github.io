@@ -14,17 +14,21 @@ Este portfólio reúne meus projetos, estudos e soluções que integram **Medici
 - **Formação sólida em Ciência de Dados e IA aplicada a negócios**: MBA em Inteligência Artificial para Negócios (Exame), graduação em Ciência de Dados (Uninove, EAD).  
 - **Foco em inovação e aprendizado contínuo**, transformando dados e tecnologia em soluções clínicas, educacionais e estratégicas.
 
+## Tecnologias e Ferramentas
 
+**IA e Conteúdo Generativo:** ChatGPT, Gemini, Claude, Leonardo.AI, Midjourney, NightCafe, Adobe Firefly, Space AI (geração de artigos)  
 
-  ##  Tecnologias  e  Ferramentas
+**Automação e Agentes:** n8n, Zapier, Make (Integromat)  
 
-- 🧠 **IA e Conteúdo Generativo**: ChatGPT, Gemini, Claude, Leonardo.AI, Midjourney, NightCafe, Adobe Firefly, entre outros
-- ⚙️ **Automação e Agentes**: n8n, Zapier, Make (Integromat)  
-- ☁️ **Cloud & ML Ops**: Microsoft Azure (incluindo Azure ML), AWS (SageMaker, Lambda, S3), Google Cloud AI Platform  
-- 📊 **Data & Analytics**: Tableau, Power BI, Pandas, NumPy, Matplotlib, Seaborn  
-- 🛠️ **Machine Learning & Deep Learning**: TensorFlow, PyTorch, Scikit-learn, OpenCV  
-- 💻 **Linguagens e Plataformas**: Python, SQL, Jupyter Notebooks, Git/GitHub  
-- 🧑‍💻 **Copilotos e Assistentes de IA**: GitHub Copilot, Claude, ChatGPT, Gemini, Leonardo.AI, Midjourney, NightCafe, entre outros
+**Cloud & ML Ops:** Microsoft Azure (incluindo Azure ML), AWS (SageMaker, Lambda, S3), Google Cloud AI Platform  
+
+**Data & Analytics:** Tableau, Power BI, Pandas, NumPy, Matplotlib, Seaborn  
+
+**Machine Learning & Deep Learning:** TensorFlow, PyTorch, Scikit-learn, OpenCV  
+
+**Linguagens e Plataformas:** Python, SQL, Jupyter Notebooks, Git/GitHub  
+
+**Copilotos e Assistentes de IA:** GitHub Copilot, Claude, ChatGPT, Gemini, Leonardo.AI, Midjourney, NightCafe, Space AI
 ## Projetos Relevantes
 
 - **Aurora Tech – Shorts Educativos**: vídeos curtos sobre IA e Ciência de Dados, com foco em aprendizado rápido e engajamento.  
