@@ -1,10 +1,20 @@
-
-// Captura o formulário e a mensagem de confirmação
+// Seleciona o formulário e a mensagem de confirmação
 const form = document.getElementById('form-contato');
-const confirmacao = document.getElementById('confirmacao');
+const mensagemConfirmacao = document.getElementById('mensagem-confirmacao');
 
+// Adiciona evento de envio
 form.addEventListener('submit', function(e) {
-    e.preventDefault(); // evita que a página recarregue
-    confirmacao.style.display = 'block'; // mostra mensagem de sucesso
-    form.reset(); // limpa os campos do formulário
+    e.preventDefault(); // Evita reload da página
+
+    // Aqui você pode integrar com um backend ou serviço de e-mail
+    // Por enquanto, apenas mostramos a mensagem de confirmação
+    mensagemConfirmacao.classList.remove('hidden');
+
+    // Limpa o formulário
+    form.reset();
+
+    // Opcional: esconder a mensagem após 5 segundos
+    setTimeout(() => {
+        mensagemConfirmacao.classList.add('hidden');
+    }, 5000);
 });
