@@ -1,6 +1,6 @@
 # Tsichero - Portfólio
 
-Olá! Eu sou a **Tatá**, Médica Veterinária e Especialista em Inteligência Artificial.  
+Olá! Eu sou a **Tainã Sichero Dulcetti**, Médica Veterinária e Especialista em Inteligência Artificial.  
 Aqui você encontra meus projetos, estudos e soluções que unem **Medicina Veterinária**, **Ciência de Dados** e **IA aplicada a negócios e educação**.
 
 ## Sobre mim
@@ -10,14 +10,14 @@ Aqui você encontra meus projetos, estudos e soluções que unem **Medicina Vete
 - Conteúdo digital voltado para estudantes e profissionais da área
 
 ## Projetos
-- **SouAnimal IA** – Simulador de exames veterinários para estudantes  
+- **VET IA** – Simulador de exames veterinários para estudantes  
 - **Aurora Tech** – Shorts educativos sobre Inteligência Artificial e Ciência de Dados  
 - [Outros projetos futuros serão adicionados aqui]
 
 ## Contato
 - Email: tata@email.com  
-- GitHub: [github.com/seu-usuario](https://github.com/seu-usuario)  
-- Instagram: [instagram.com/seuusuario](https://instagram.com/seuusuario)
+- GitHub: [github.com/seu-usuario](https://github.com/tsichero  
+- Instagram: [instagram.com/seuusuario](https://instagram.com/tataiworld).
 
 ---
 
