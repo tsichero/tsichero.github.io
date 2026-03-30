@@ -18,13 +18,13 @@ Este portfólio reúne meus projetos, estudos e soluções que integram **Medici
 
  ## Tecnologias e Ferramentas
 
-- 🧠 **IA e Conteúdo Generativo**: ChatGPT, Gemini, Claude, Leonardo.AI, Midjourney, NightCafe, Adobe Firefly,entre outros
+- 🧠 **IA e Conteúdo Generativo**: ChatGPT, Gemini, Claude, Leonardo.AI, Midjourney, NightCafe, Adobe Firefly, Space AI (geração de artigos)  
 - ⚙️ **Automação e Agentes**: n8n, Zapier, Make (Integromat)  
 - ☁️ **Cloud & ML Ops**: Microsoft Azure (incl. Azure ML), AWS (SageMaker, Lambda, S3), Google Cloud AI Platform  
 - 📊 **Data & Analytics**: Tableau, Power BI, Pandas, NumPy, Matplotlib, Seaborn  
 - 🛠️ **Machine Learning & Deep Learning**: TensorFlow, PyTorch, Scikit-learn, OpenCV  
 - 💻 **Linguagens e Plataformas**: Python, SQL, Jupyter Notebooks, Git/GitHub  
-- 🧑‍💻 **Copilotos e Assistentes de IA**: GitHub Copilot, Claude, ChatGPT, Gemini, Leonardo.AI, Midjourney, NightCafe, entre outros
+- 🧑‍💻 **Copilotos e Assistentes de IA**: GitHub Copilot, Claude, ChatGPT, Gemini, Leonardo.AI, Midjourney, NightCafe, Space AI
 
 
 ## Projetos Relevantes
