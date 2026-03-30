@@ -15,7 +15,7 @@ Este portfólio reúne meus projetos, estudos e soluções que integram **Medici
 - **Foco em inovação e aprendizado contínuo**, transformando dados e tecnologia em soluções clínicas, educacionais e estratégicas.
 
 
-## Tecnologias e Ferramentas
+ ## Tecnologias e Ferramentas
 
 - 🧠 **IA e Conteúdo Generativo**: ChatGPT, Gemini, Claude, Leonardo.AI, Midjourney, NightCafe, Adobe Firefly,entre outros
 - ⚙️ **Automação e Agentes**: n8n, Zapier, Make (Integromat)  
