@@ -14,7 +14,7 @@ Este portfólio reúne meus projetos, estudos e soluções que integram **Medici
 - **Formação sólida em Ciência de Dados e IA aplicada a negócios**: MBA em Inteligência Artificial para Negócios (Exame), graduação em Ciência de Dados (Uninove, EAD).  
 - **Foco em inovação e aprendizado contínuo**, transformando dados e tecnologia em soluções clínicas, educacionais e estratégicas.
 
-## Tecnologias e Ferramentas
+##  Ferramentas & Tecnologias
 
 **IA e Conteúdo Generativo:** ChatGPT, Gemini, Claude, Leonardo.AI, Midjourney, NightCafe, Adobe Firefly, Space AI (geração de artigos)  
 
