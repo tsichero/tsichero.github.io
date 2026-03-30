@@ -37,8 +37,9 @@ Este portfólio reúne meus projetos, estudos e soluções que integram **Medici
 - Email: mmbjjs@gmail.com
 - Telefone: +55 (11) 988419090
 - GitHub: https://github.com/tsichero  
-- LinkedIn: https://linkedin.com/tataaiworld 
-- Instagram: https://instagram.com/veterinariasouanimal
+- LinkedIn: https://www.linkedin.com/in/tain%C3%A3-sichero-dulcetti-
+- Instagram: https://instagram.com/tataiworld
+-  Instagram: https://instagram.com/veterinariasouanimal
 
 ---
 
