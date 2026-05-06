@@ -6,83 +6,208 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #0b1120;
-      color: #e5e7eb;
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
     }
 
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 60px 20px;
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+      background:#020617;
+      color:#e2e8f0;
+      line-height:1.8;
+      overflow-x:hidden;
     }
 
-    .header {
-      text-align: center;
-      margin-bottom: 50px;
+    .container{
+      max-width:1100px;
+      margin:auto;
+      padding:70px 25px;
     }
 
-    .profile-img {
-      width: 140px;
-      height: 140px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 3px solid #38bdf8;
-      box-shadow: 0 0 25px rgba(56,189,248,0.4);
-      margin-bottom: 20px;
+    .header{
+      text-align:center;
+      margin-bottom:60px;
+      animation:fadeUp 1s ease;
     }
 
-    h1 {
-      color: #38bdf8;
-      margin: 10px 0;
+    .profile-img{
+      width:180px;
+      height:180px;
+      border-radius:50%;
+      object-fit:cover;
+      border:4px solid #38bdf8;
+      box-shadow:0 0 35px rgba(56,189,248,0.35);
+      margin-bottom:25px;
+      transition:0.4s ease;
     }
 
-    .subtitle {
-      color: #94a3b8;
+    .profile-img:hover{
+      transform:scale(1.03);
     }
 
-    .section {
-      margin-top: 50px;
+    h1{
+      font-size:48px;
+      color:#ffffff;
+      margin-bottom:10px;
     }
 
-    .section h2 {
-      color: #38bdf8;
-      margin-bottom: 15px;
+    .subtitle{
+      color:#38bdf8;
+      font-size:18px;
+      letter-spacing:1px;
     }
 
-    .card {
-      background: #111827;
-      padding: 20px;
-      border-radius: 14px;
-      margin-bottom: 15px;
-      border: 1px solid rgba(255,255,255,0.05);
+    .section{
+      margin-top:60px;
+      animation:fadeUp 1s ease;
     }
 
-    ul {
-      padding-left: 18px;
+    .section h2{
+      color:#38bdf8;
+      margin-bottom:20px;
+      font-size:30px;
     }
 
-    .contact {
-      text-align: center;
-      margin-top: 50px;
+    .card{
+      background:rgba(15,23,42,0.75);
+      border:1px solid rgba(255,255,255,0.05);
+      padding:28px;
+      border-radius:20px;
+      margin-bottom:20px;
+      backdrop-filter:blur(10px);
+      transition:0.3s ease;
     }
 
-    .btn {
-      display: inline-block;
-      padding: 10px 18px;
-      border-radius: 8px;
-      background: #38bdf8;
-      color: #0b1120;
-      text-decoration: none;
-      font-weight: bold;
+    .card:hover{
+      transform:translateY(-5px);
+      border-color:#38bdf8;
+      box-shadow:0 10px 30px rgba(56,189,248,0.15);
     }
 
-    a {
-      color: #38bdf8;
-      text-decoration: none;
+    p{
+      margin-bottom:18px;
+      color:#cbd5e1;
     }
+
+    strong{
+      color:#ffffff;
+    }
+
+    .skills{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin-top:20px;
+    }
+
+    .skill{
+      background:#0f172a;
+      border:1px solid rgba(255,255,255,0.08);
+      padding:10px 16px;
+      border-radius:999px;
+      font-size:14px;
+      color:#38bdf8;
+    }
+
+    .contact{
+      text-align:center;
+      margin-top:80px;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:20px;
+      padding:14px 28px;
+      border-radius:12px;
+      background:#38bdf8;
+      color:#020617;
+      text-decoration:none;
+      font-weight:700;
+      transition:0.3s ease;
+    }
+
+    .btn:hover{
+      transform:translateY(-2px);
+      box-shadow:0 10px 25px rgba(56,189,248,0.35);
+    }
+
+    .links{
+      margin-top:25px;
+    }
+
+    .links a{
+      color:#38bdf8;
+      text-decoration:none;
+      margin:0 10px;
+      transition:0.3s ease;
+    }
+
+    .links a:hover{
+      color:#ffffff;
+    }
+
+    /* WhatsApp */
+
+    .whatsapp-button{
+      position:fixed;
+      bottom:25px;
+      right:25px;
+      width:68px;
+      height:68px;
+      background:#25D366;
+      border-radius:50%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      box-shadow:0 8px 25px rgba(0,0,0,0.35);
+      z-index:999;
+      transition:0.3s ease;
+    }
+
+    .whatsapp-button:hover{
+      transform:scale(1.1);
+    }
+
+    /* Animation */
+
+    @keyframes fadeUp{
+      from{
+        opacity:0;
+        transform:translateY(20px);
+      }
+
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+    }
+
+    /* Mobile */
+
+    @media(max-width:768px){
+
+      h1{
+        font-size:34px;
+      }
+
+      .subtitle{
+        font-size:15px;
+      }
+
+      .profile-img{
+        width:150px;
+        height:150px;
+      }
+
+      .section h2{
+        font-size:26px;
+      }
+
+    }
+
   </style>
 </head>
 
@@ -92,40 +217,55 @@
 
   <!-- HEADER -->
   <div class="header">
+
     <img src="./profile.jpeg" alt="Tainã Sichero Dulcetti" class="profile-img">
+
     <h1>Tainã Sichero Dulcetti</h1>
+
     <p class="subtitle">
       AI Specialist • Generative AI • RAG • NLP • Data Science • Azure
     </p>
+
   </div>
 
   <!-- INTRO -->
   <div class="section">
-    <p>
-      Sou Especialista em Inteligência Artificial, com MBA em IA para Negócios, atuando como Consultora Estratégica e Gestora de Projetos em Tecnologias Inteligentes.
-    </p>
 
-    <p>
-      Minha atuação é focada na aplicação prática da IA para geração de valor, otimização de processos e tomada de decisão orientada por dados. Desenvolvo soluções com Machine Learning, IA Generativa, Visão Computacional e NLP, sempre com foco em impacto real e escalabilidade.
-    </p>
+    <div class="card">
+
+      <p>
+        Sou Especialista em Inteligência Artificial, com MBA em IA para Negócios, atuando como Consultora Estratégica e Gestora de Projetos em Tecnologias Inteligentes.
+      </p>
+
+      <p>
+        Minha atuação é focada na aplicação prática da IA para geração de valor, otimização de processos e tomada de decisão orientada por dados.
+      </p>
+
+      <p>
+        Desenvolvo soluções com Machine Learning, IA Generativa, Visão Computacional e NLP, sempre com foco em impacto real, automação inteligente e escalabilidade.
+      </p>
+
+    </div>
+
   </div>
 
   <!-- EXPERIÊNCIA -->
   <div class="section">
+
     <h2>⚡ Experiência em IA & Data</h2>
 
     <div class="card">
 
       <p>
-        Experiência prática com IA/GenAI, incluindo LLMs, RAG (Retrieval-Augmented Generation) e frameworks como LangChain, atuando de forma end-to-end — da concepção à implementação de soluções.
+        Experiência prática com <strong>LLMs, RAG (Retrieval-Augmented Generation)</strong> e frameworks como <strong>LangChain</strong>, atuando de forma end-to-end — da concepção à implementação de soluções.
       </p>
 
       <p>
-        Desenvolvimento de chatbot inteligente para Medicina Veterinária com arquitetura em Azure, focado em respostas contextualizadas, automação de fluxos e evolução contínua baseada em dados.
+        Desenvolvimento de chatbot inteligente para Medicina Veterinária com arquitetura em <strong>Microsoft Azure</strong>, focado em respostas contextualizadas e automação de fluxos.
       </p>
 
       <p>
-        Aplicações em visão computacional com Python e OpenCV para análise de imagens e identificação de padrões, com foco em apoio à decisão.
+        Aplicações em visão computacional com <strong>Python e OpenCV</strong> para análise de imagens e identificação de padrões.
       </p>
 
       <p>
@@ -133,71 +273,120 @@
       </p>
 
       <p>
-        Experiência na estruturação de dados para IA, com evolução para pipelines e arquiteturas como Lakehouse.
+        Estruturação de dados para IA com evolução para pipelines e arquiteturas como <strong>Lakehouse</strong>.
       </p>
 
       <p>
-        Experiência com copilotos e ferramentas de IA: ChatGPT, Gemini, Claude e NotebookLM, aplicando essas tecnologias em automação, geração de conteúdo e soluções inteligentes.
+        Experiência com copilotos e ferramentas de IA:
+        <strong>ChatGPT, Gemini, Claude e NotebookLM</strong>.
       </p>
 
       <p>
-        Automação de processos utilizando n8n, ManyChat e integração com Power BI, criando fluxos inteligentes e escaláveis.
+        Automação inteligente utilizando <strong>n8n, ManyChat e Power BI</strong>.
       </p>
 
       <p>
-        Atuação como consultora em IA para negócios, apoiando empresas na implementação de soluções inteligentes com foco em eficiência operacional e geração de valor.
+        Consultoria em IA aplicada a negócios, apoiando empresas na implementação de soluções inteligentes e automação de processos.
       </p>
 
     </div>
+
   </div>
 
   <!-- PROJETOS -->
   <div class="section">
+
     <h2>🧠 Projetos</h2>
 
     <div class="card">
       <strong>Chatbot de IA para Medicina Veterinária</strong>
-      <p>LLMs + Azure + RAG • Respostas contextualizadas • Automação de fluxos</p>
+      <p>
+        LLMs • Azure • RAG • Respostas contextualizadas • Automação inteligente
+      </p>
     </div>
 
     <div class="card">
       <strong>Análise de Dados (YouTube/API)</strong>
-      <p>Coleta de dados • Métricas • Insights estratégicos</p>
+      <p>
+        APIs • Coleta de métricas • Insights estratégicos
+      </p>
     </div>
 
     <div class="card">
       <strong>Visão Computacional em Saúde</strong>
-      <p>Processamento de imagens • OpenCV • Identificação de padrões</p>
+      <p>
+        OpenCV • Processamento de imagens • Identificação de padrões
+      </p>
     </div>
 
   </div>
 
   <!-- SKILLS -->
   <div class="section">
+
     <h2>🧩 Skills</h2>
-    <p>LLMs • RAG • NLP • Machine Learning • Visão Computacional</p>
-    <p>Python • SQL • Power BI • Azure • n8n • ManyChat</p>
+
+    <div class="skills">
+
+      <span class="skill">LLMs</span>
+      <span class="skill">RAG</span>
+      <span class="skill">NLP</span>
+      <span class="skill">Machine Learning</span>
+      <span class="skill">Python</span>
+      <span class="skill">SQL</span>
+      <span class="skill">Azure</span>
+      <span class="skill">FastAPI</span>
+      <span class="skill">Power BI</span>
+      <span class="skill">Docker</span>
+      <span class="skill">n8n</span>
+      <span class="skill">ManyChat</span>
+      <span class="skill">LangChain</span>
+
+    </div>
+
   </div>
 
   <!-- CONTATO -->
   <div class="contact">
+
     <h2>📩 Contato</h2>
-    <p>Aberta a oportunidades em Inteligência Artificial e Data Science</p>
 
-    <a href="mailto:mmbjjs@gmail.com" class="btn">💼 Me contrate</a>
-    <br><br>
+    <p>
+      Aberta a oportunidades em Inteligência Artificial, Data Science e Automação.
+    </p>
 
-    <a href="https://github.com/tsichero" target="_blank">
-      GitHub
+    <a href="mailto:mmbjjs@gmail.com" class="btn">
+      💼 Disponível para projetos e oportunidades em IA
     </a>
-    <br>
 
-    <a href="https://www.linkedin.com/in/tainã-sichero-dulcetti-65270b149" target="_blank">
-      LinkedIn
-    </a>
+    <div class="links">
+
+      <a href="https://github.com/tsichero" target="_blank">
+        GitHub
+      </a>
+
+      •
+
+      <a href="https://www.linkedin.com/in/tainã-sichero-dulcetti-65270b149" target="_blank">
+        LinkedIn
+      </a>
+
+    </div>
+
   </div>
 
 </div>
+
+<!-- WhatsApp -->
+<a href="https://wa.me/5511988419090?text=Olá%20Tainã,%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar."
+   class="whatsapp-button"
+   target="_blank">
+
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+       alt="WhatsApp"
+       width="34">
+
+</a>
 
 </body>
 </html>
