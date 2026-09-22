@@ -1,44 +1,135 @@
 
 
-# TSICHERO - Portfólio Profissional
+# 🧠 Tainã Sichero Dulcetti — AI & Data Developer
 
-Olá! Eu sou a **Tainã Sichero Dulcetti**, Médica Veterinária, Especialista em Inteligência Artificial e Cientista de Dados em Formação.  
-Este portfólio reúne meus projetos, estudos e soluções que integram **Medicina Veterinária**, **Ciência de Dados**, **Inteligência Artificial aplicada a negócios e educação**, e **tecnologias em Cloud**.
+> I build AI and data-driven solutions that connect technology, context and business to solve real-world problems.
 
-## Sobre mim
+---
 
-- Atuação clínica de excelência em Clínica e Cirurgia em Pequenos Animais, com experiência em atendimentos domiciliares, diagnósticos e protocolos clínicos avançados.  
-- Consultoria estratégica em IA, implementando soluções inteligentes e pipelines de dados para negócios e educação veterinária.  
-- Desenvolvimento de ferramentas educacionais e simuladores de exames, incluindo Tomografia, Ressonância e outros exames de imagem, cursos para estudantes e profissionais.  
-- Criação de conteúdo digital de alto impacto, capacitando e engajando estudantes e profissionais da Medicina Veterinária.  
-- Formação sólida em Ciência de Dados e IA aplicada a negócios: MBA em Inteligência Artificial para Negócios (Exame), graduação em Ciência de Dados (Uninove, EAD).  
-- Foco em inovação e aprendizado contínuo, transformando dados e tecnologia em soluções clínicas, educacionais e estratégicas.
+## 👩🏻‍💻 About Me
 
-## Ferramentas
+I am an **AI & Data Developer** and **AI Specialist**, with an MBA in Artificial Intelligence for Business and an ongoing degree in Data Science.
 
-- **IA e Conteúdo Gerador:** ChatGPT, Gemini, Claude, Leonardo.AI, Midjourney, NightCafe, Adobe Firefly, Space AI (geração de artigos)  
-- **Automação e Agentes:** n8n, Zapier, Make (Integromat)  
-- **Cloud & ML Ops:** Microsoft Azure (incluindo Azure ML), AWS (SageMaker, Lambda, S3), Google Cloud AI Platform  
-- **Dados e Análises:** Tableau, Power BI, Pandas, NumPy, Matplotlib, Seaborn  
-- **Aprendizado de Máquina e Aprendizado Profundo:** TensorFlow, PyTorch, Scikit-learn, OpenCV  
-- **Linguagens e Plataformas:** Python, SQL, Jupyter Notebooks, Git/GitHub  
-- **Copilotos e Assistentes de IA:** GitHub Copilot, Claude, ChatGPT, Gemini, Leonardo.AI, Midjourney, NightCafe, Space AI
+My work sits at the intersection of:
 
-## Projetos Relevantes
+* 🧠 Artificial Intelligence & Generative AI
+* 📊 Data Science & Predictive Analytics
+* 🤖 Machine Learning & NLP
+* ⚙️ Intelligent Automation
+* 💻 Software & API Development
+* 💼 AI applied to Business
 
-- **Aurora Tech – Shorts Educativos:** vídeos curtos sobre IA e Ciência de Dados, com foco em aprendizado rápido e engajamento.  
-- **Aurora Tech – Simuladores Educacionais (Sigiloso):** projeto confidencial em desenvolvimento.  
-- **Aurora Tech – Conteúdos de Python e IA:** cursos e materiais voltados para Python, Machine Learning e IA aplicados à Medicina Veterinária.  
-- **Aurora Tech – Projetos de Ciência de Dados:** exercícios, desafios e ferramentas práticas para treino de análise de dados, visualização e aprendizado de máquina.  
-- **Aurora Tech – ChatBoot (Sigiloso):** IA integrada, desenvolvendo automatizações, diagnósticos e suporte a fluxos de trabalho, com alto nível de confidencialidade.
+I focus on turning ideas and real-world problems into structured, practical and technology-driven solutions.
 
-## Contato
+My background as a **Médica Veterinária** also contributes to a multidisciplinary perspective, combining domain knowledge with Artificial Intelligence, Data and technology.
 
-- **E-mail:** mmbjjs@gmail.com  
-- **Telefone:** +55 (11) 98841-9090  
-- **GitHub:** [https://github.com/tsichero](https://github.com/tsichero)  
-- **LinkedIn:** [https://www.linkedin.com/in/tainã-sichero-dulcetti-](https://www.linkedin.com/in/tain%C3%A3-sichero-dulcetti-)  
-- **Instagram:** [https://instagram.com/tataiworld](https://instagram.com/tataiworld)  
-- **Instagram:** [https://instagram.com/veterinariasouanimal](https://instagram.com/veterinariasouanimal)
+---
 
-💡 **Nota:** Este portfólio está em constante evolução, com foco em inovação, educação e tecnologias aplicadas à Medicina Veterinária, Ciência de Dados e Inteligência Artificial.
+## 🚀 What I Work With
+
+### 🧠 Artificial Intelligence
+
+* Generative AI
+* LLM applications
+* Prompt Engineering
+* RAG (Retrieval-Augmented Generation)
+* NLP (Natural Language Processing)
+* Machine Learning
+* Predictive Analytics
+
+### 📊 Data
+
+* Data analysis
+* SQL
+* Data-driven insights
+* Business Intelligence
+* Predictive modeling
+* Decision-support solutions
+
+### 💻 Development
+
+* Python
+* FastAPI
+* REST APIs
+* Backend development
+* JavaScript
+* React
+* Application integration
+
+### ☁️ Cloud & Automation
+
+* Microsoft Azure
+* AI services and APIs
+* Intelligent automation
+* Workflow automation
+* Integration of AI into business processes
+
+---
+
+## 🧩 Featured Projects & Systems
+
+This portfolio brings together projects, studies, experiments and applications developed across **Artificial Intelligence, Data and software development**.
+
+### 🤖 Artificial Intelligence
+
+Projects exploring Generative AI, LLMs, NLP, Machine Learning and multimodal AI applications.
+
+### 📚 RAG & Knowledge Systems
+
+Experiments and applications involving document processing, embeddings, retrieval and LLM-based responses.
+
+### 📊 Data & Business Intelligence
+
+Data analysis, dashboards, predictive approaches and solutions designed to transform data into actionable insights.
+
+### ⚙️ Automation
+
+Python-based automation, APIs and intelligent workflows designed to reduce repetitive processes and connect systems.
+
+### 🧪 AI Experiments & Studies
+
+Technical experiments focused on understanding, evaluating and applying emerging AI technologies.
+
+---
+
+## 🎯 How I Approach AI
+
+I believe effective AI solutions require more than choosing a model or integrating an API.
+
+They require:
+
+**Context → Data → Architecture → Development → Validation → Application**
+
+My focus is on building solutions that are technically structured while remaining connected to the problem they are designed to solve.
+
+---
+
+## 🔬 Current Direction
+
+I am currently expanding my work in:
+
+* Generative AI applications
+* LLM-based systems
+* RAG architectures
+* AI Agents
+* Intelligent automation
+* Machine Learning
+* Data-driven applications
+* AI Engineering
+* AI applied to business
+* Scalable AI solutions
+
+---
+
+## 🛠️ Tech Stack
+
+**AI & Data**
+
+Python • Machine Learning • Generative AI • LLMs • RAG • NLP • Predictive Analytics • SQL
+
+**Development**
+
+FastAPI • REST APIs • Backend Development • JavaScript • React
+
+**Cloud & Automati**
+
